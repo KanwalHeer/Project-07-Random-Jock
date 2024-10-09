@@ -16,7 +16,7 @@ export default function JokeGenerator() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-blue-500 ">
-      <div className="bg-white shadow-lg rounded-lg p-6 max-w-md w-full h-64 text-center">
+      <div className="bg-white shadow-lg rounded-lg p-6 max-w-md w-full h-full text-center">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">Random Joke Generator</h1>
         <p className="text-xl text-gray-700 mb-6">{joke || "Loading..."}</p>
         <button 
